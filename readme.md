@@ -19,7 +19,7 @@ Please refer to the relevant descriptions provided in the manuscript for a compr
 | parameter                                                    | range of values   |
 | ------------------------------------------------------------ | ----------------- |
 | changing Intensity for $\phi$: $\mathcal{I}_{\phi}$          | $[0,1]$           |
-| the number of randomly selected points in $D_2$: $|\varLambda|$ | $[[0.1T],T]$      |
+| the number of randomly selected points in $D_2$: $\|\varLambda\|$ | $[[0.1T],T]$      |
 | offset of the noise in $D_5$                                 | $[0.1,0.5]$       |
 | change rate in F2: $r_c$                                     | $[0.1,1]$         |
 | recurrent period: $P$                                        | $[[0.1T],[0.5T]]$ |
