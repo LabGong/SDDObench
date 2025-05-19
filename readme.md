@@ -27,7 +27,7 @@ Please refer to the relevant descriptions provided in the manuscript for a compr
 Where $T$ denotes the maximum change time. 
 
 ## Citation
-If you think this benchmark has given you some help, please cite it in your publications or projects:
+The PDF version of the paper is available [here](https://www.researchgate.net/publication/382249402_SDDObench_A_Benchmark_for_Streaming_Data-Driven_Optimization_with_Concept_Drift#fullTextFileContent). If you find our SDDObench has given you some help, please cite it in your publications or projects:
 
 ```latex
 @inproceedings{zhong2024sddobench,
