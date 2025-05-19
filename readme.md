@@ -27,34 +27,13 @@ Please refer to the relevant descriptions provided in the manuscript for a compr
 Where $T$ denotes the maximum change time. 
 
 ## Citation
-If you think this benchmark has given you some help, please cite our paper:
-
+If you think this benchmark has given you some help, please cite it in your publications or projects:
 @inproceedings{zhong2024sddobench,
-
-  title = {SDDObench: A Benchmark for Streaming Data-Driven Optimization with Concept Drift},
-  
-  shorttitle = {SDDObench},
-  
-  booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference},
-  
-  author = {Zhong, Yuanting and Wang, Xincan and Sun, Yuhong and Gong, Yue-Jiao},
-  
-  year = {2024},
-  
-  month = jul,
-  
-  pages = {59--67},
-  
-  publisher = {ACM},
-  
+  title={SDDObench: A Benchmark for Streaming Data-Driven Optimization with Concept Drift},
+  author={Zhong, Yuanting and Wang, Xincan and Sun, Yuhong and Gong, Yue-Jiao},
+  booktitle={Proceedings of the Genetic and Evolutionary Computation Conference},
   address = {Melbourne VIC Australia},
-  
-  doi = {10.1145/3638529.3654063},
-  
-  urldate = {2024-09-28},
-  
-  isbn = {979-8-4007-0494-9},
-  
-  langid = {english}
+  pages={59--67},
+  year={2024}
 }
 
