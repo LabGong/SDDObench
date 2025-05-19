@@ -5,16 +5,17 @@ def transform_func(phi, lb, ub, delt_t, severity):
     delta = ub - lb
     if delta == 0:
         raise Exception("Error: lower bound equal to upper bound.")
-    shift_vec = np.full(phi.shape, delt_t)
+    if isinstance(phi,np.ndarray):
+        shift_vec = np.full(phi.shape, delt_t)
+        dim = phi.shape[0] if len(phi.shape) == 1 else phi.shape[1]
+    else:
+        shift_vec = delt_t
+        dim=1
 
     theta = 4 * np.arcsin(delt_t ** 2)
 
     lamda = severity * delta
 
-    if len(phi.shape) == 1:
-        dim = 1
-    else:
-        dim = phi.shape[1]
     rotate_mart = get_rotate_mart(theta, dim)
 
     shift_res = phi + lamda * shift_vec
