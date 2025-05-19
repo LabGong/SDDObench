@@ -28,6 +28,8 @@ Where $T$ denotes the maximum change time.
 
 ## Citation
 If you think this benchmark has given you some help, please cite it in your publications or projects:
+
+```latex
 @inproceedings{zhong2024sddobench,
   title={SDDObench: A Benchmark for Streaming Data-Driven Optimization with Concept Drift},
   author={Zhong, Yuanting and Wang, Xincan and Sun, Yuhong and Gong, Yue-Jiao},
@@ -36,4 +38,5 @@ If you think this benchmark has given you some help, please cite it in your publ
   pages={59--67},
   year={2024}
 }
+```
 
